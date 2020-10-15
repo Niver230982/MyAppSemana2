@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My App Semana2</string>
+    <string name="titulo">Información ingresada</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="FechaNacimiento">Fecha de Nacimiento</string>
+    <string name="Boton1">Cancel</string>
+    <string name="Boton2">Ok</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descripción">Descripción Contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="botonEditar">Editar Datos</string>
+</resources>

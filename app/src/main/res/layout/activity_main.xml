@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    //EditText Nombre con Material Design
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "20dp" >
+        <EditText
+            android:id="@+id/txNombre"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:hint="@string/nombre" />
+</com.google.android.material.textfield.TextInputLayout>
+
+//TextView Fecha
+<TextView
+    android:id="@+id/tvFecha"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:ems = "10"
+    android:hint="@string/FechaNacimiento"
+    android:layout_marginTop = "20dp" />
+
+//EditText Teléfono con Material Design
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:layout_marginTop = "20dp" >
+
+<EditText
+    android:id="@+id/txTelefono"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint = "@string/telefono" />
+</com.google.android.material.textfield.TextInputLayout>
+
+//EditText E-mail con Material Design
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:layout_marginTop = "20dp" >
+<EditText
+    android:id = "@+id/txEmail"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint = "@string/email" />
+</com.google.android.material.textfield.TextInputLayout>
+
+//EditText Descripción con Material Design
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:layout_marginTop = "20dp" >
+<EditText
+    android:id = "@+id/txDescripcion"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint = "@string/descripción"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+//Btn-Siguiente actividad
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorBlanco"
+        android:onClick="onClick"
+        android:text="@string/siguiente"
+        tools:ignore="OnClick"/>
+
+
+</LinearLayout>
